@@ -19,18 +19,20 @@ function App() {
           </nav>
         </div>
       </header>
-      <section>
-        <div>
-          <div>
+      <section className='text-gray-700' id='home'>
+        <div className='flex container mx-auto py-20 px-4 flex-col md:flex-row items-center justify-center'>
+          <div className='md:w-1/2 mb-8'>
             <h1>
               こんにちは！<br />
               私のポートフォリオサイトにようこそ！<br />
               ごゆっくりくつろぎください
             </h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, eveniet fuga similique aperiam doloremque iure neque nemo ullam voluptatum nisi delectus laudantium, rerum corrupti possimus quasi sit illo nobis earum!</p>
-            <button></button>
+            <button>Contact me</button>
           </div>
-          <div></div>
+          <div className='md:w-1/2 lg:max-w-lg w-5/6'>
+            <img src='./images/sample.png' alt=''></img>
+          </div>
         </div>
       </section>
     </>
