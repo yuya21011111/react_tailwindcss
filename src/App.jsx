@@ -21,14 +21,14 @@ function App() {
       </header>
       <section className='text-gray-700' id='home'>
         <div className='flex container mx-auto py-20 px-4 flex-col md:flex-row items-center justify-center'>
-          <div className='md:w-1/2 mb-8'>
-            <h1>
+          <div className='md:w-1/2 mb-8 lg:pr-24 md:pr-16 text-center md:text-left'>
+            <h1 className='text-3xl sm:text-6xl text-gray-900 font-medium mb-4'>
               こんにちは！<br />
               私のポートフォリオサイトにようこそ！<br />
               ごゆっくりくつろぎください
             </h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, eveniet fuga similique aperiam doloremque iure neque nemo ullam voluptatum nisi delectus laudantium, rerum corrupti possimus quasi sit illo nobis earum!</p>
-            <button>Contact me</button>
+            <p className='mb-8 leading-relaxed'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, eveniet fuga similique aperiam doloremque iure neque nemo ullam voluptatum nisi delectus laudantium, rerum corrupti possimus quasi sit illo nobis earum!</p>
+            <button className='text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300'>Contact</button>
           </div>
           <div className='md:w-1/2 lg:max-w-lg w-5/6'>
             <img src='./images/sample.png' alt=''></img>
