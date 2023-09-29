@@ -35,6 +35,27 @@ function App() {
           </div>
         </div>
       </section>
+      <section className='text-gray-700 border-t border-gray-200'>
+        <div className='container px-5 py-24 mx-auto'>
+          <div className='text-center mb-20'>
+            <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>About Me</h1>
+            <p className='pb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, vero recusandae accusantium nulla eaque quas libero perferendis ipsum distinctio voluptate.</p>
+            <p className='pb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde, temporibus beatae sit autem molestiae veritatis dolorem soluta, repellendus ducimus cupiditate ab iure porro illo repudiandae! Ratione repudiandae eligendi harum maxime blanditiis optio cupiditate eum mollitia vel quam, consectetur facilis illum est ea fuga beatae. Magni omnis, recusandae, repudiandae exercitationem distinctio consectetur nemo accusamus sequi at nulla laboriosam expedita. Officiis, non ad velit et fuga eaque vel minima est ipsa commodi, nihil exercitationem quibusdam asperiores repellendus natus libero repudiandae autem. Dignissimos dolorem quaerat laudantium eius deleniti mollitia libero delectus quidem omnis assumenda ab, cum eaque. Sed repudiandae magnam at illo.</p>
+          </div>
+          {/* カードのdivタグ */}
+          <div className='flex flex-wrap'>
+            <div className='md:w-1/3'>
+              <div className='bg-gray-100 rounded-lg'>
+                <div className='flex items-center'>
+                  <div className='bg-green-500 text-white rounded-full'>
+                    <svg></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
