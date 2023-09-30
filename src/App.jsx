@@ -13,9 +13,9 @@ function App() {
           </a>
           <nav className='md:ml-auto text-base'>
             <a className='mr-5 hover:text-blue-400 duration-300' href='#home'>Home</a>
-            <a className='mr-5 hover:text-blue-400 duration-300'  href='#About'>About</a>
-            <a className='mr-5 hover:text-blue-400 duration-300'  href='#Skills'>Skills</a>
-            <a className=' hover:text-blue-400 duration-300'  href='#Grallery'>Grallery</a>
+            <a className='mr-5 hover:text-blue-400 duration-300' href='#About'>About</a>
+            <a className='mr-5 hover:text-blue-400 duration-300' href='#Skills'>Skills</a>
+            <a className=' hover:text-blue-400 duration-300' href='#Grallery'>Grallery</a>
           </nav>
         </div>
       </header>
@@ -44,16 +44,174 @@ function App() {
           </div>
           {/* カードのdivタグ */}
           <div className='flex flex-wrap'>
-            <div className='md:w-1/3'>
-              <div className='bg-gray-100 rounded-lg'>
-                <div className='flex items-center'>
+            <div className='md:w-1/3 p-3'>
+              <div className='bg-gray-200 rounded-lg p-8'>
+                <div className='flex items-center mb-3'>
                   <div className='bg-green-500 text-white rounded-full'>
-                    <svg></svg>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18.6214 2.55029L21.4498 5.37872L20.0356 6.79293L17.2071 3.96451L18.6214 2.55029Z"
+                        fill="currentColor"
+                      />
+                      <path d="M12.8225 8.60055H10.8225V12.6005H12.8225V8.60055Z" fill="currentColor" />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M5.18633 18.8137C8.70105 22.3285 14.3995 22.3285 17.9143 18.8137C21.429 15.299 21.429 9.60055 17.9143 6.08583C14.3995 2.57111 8.70105 2.57111 5.18633 6.08583C1.67161 9.60054 1.67161 15.299 5.18633 18.8137ZM6.60054 17.3995C9.33422 20.1332 13.7664 20.1332 16.5 17.3995C19.2337 14.6659 19.2337 10.2337 16.5 7.50004C13.7664 4.76637 9.33422 4.76637 6.60054 7.50004C3.86688 10.2337 3.86688 14.6659 6.60054 17.3995Z"
+                        fill="currentColor"
+                      />
+                    </svg>
                   </div>
+                  <h2 className='text-gray-900 text-lg font-medium ml-2'>Web Developer</h2>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dolorum ut magni iste ducimus rerum laudantium minus quidem hic eligendi!
+                  </p>
+                  <a href='#' className='flex mt-3 text-pink-300 items-center'>
+                    もっと見る
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14.8543 11.9741L16.2686 10.5599L12.0259 6.31724L7.78327 10.5599L9.19749 11.9741L11.0259 10.1457V17.6828H13.0259V10.1457L14.8543 11.9741Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1 19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5C2.79086 1 1 2.79086 1 5V19ZM5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className='md:w-1/3 p-3'>
+              <div className='bg-gray-200 rounded-lg p-8'>
+                <div className='flex items-center mb-3'>
+                  <div className='bg-green-500 text-white rounded-full'>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18.6214 2.55029L21.4498 5.37872L20.0356 6.79293L17.2071 3.96451L18.6214 2.55029Z"
+                        fill="currentColor"
+                      />
+                      <path d="M12.8225 8.60055H10.8225V12.6005H12.8225V8.60055Z" fill="currentColor" />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M5.18633 18.8137C8.70105 22.3285 14.3995 22.3285 17.9143 18.8137C21.429 15.299 21.429 9.60055 17.9143 6.08583C14.3995 2.57111 8.70105 2.57111 5.18633 6.08583C1.67161 9.60054 1.67161 15.299 5.18633 18.8137ZM6.60054 17.3995C9.33422 20.1332 13.7664 20.1332 16.5 17.3995C19.2337 14.6659 19.2337 10.2337 16.5 7.50004C13.7664 4.76637 9.33422 4.76637 6.60054 7.50004C3.86688 10.2337 3.86688 14.6659 6.60054 17.3995Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <h2 className='text-gray-900 text-lg font-medium ml-2'>Web Developer</h2>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dolorum ut magni iste ducimus rerum laudantium minus quidem hic eligendi!
+                  </p>
+                  <a href='#' className='flex mt-3 text-pink-300 items-center'>
+                    もっと見る
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14.8543 11.9741L16.2686 10.5599L12.0259 6.31724L7.78327 10.5599L9.19749 11.9741L11.0259 10.1457V17.6828H13.0259V10.1457L14.8543 11.9741Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1 19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5C2.79086 1 1 2.79086 1 5V19ZM5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className='md:w-1/3 p-3'>
+              <div className='bg-gray-200 rounded-lg p-8'>
+                <div className='flex items-center mb-3'>
+                  <div className='bg-green-500 text-white rounded-full'>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18.6214 2.55029L21.4498 5.37872L20.0356 6.79293L17.2071 3.96451L18.6214 2.55029Z"
+                        fill="currentColor"
+                      />
+                      <path d="M12.8225 8.60055H10.8225V12.6005H12.8225V8.60055Z" fill="currentColor" />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M5.18633 18.8137C8.70105 22.3285 14.3995 22.3285 17.9143 18.8137C21.429 15.299 21.429 9.60055 17.9143 6.08583C14.3995 2.57111 8.70105 2.57111 5.18633 6.08583C1.67161 9.60054 1.67161 15.299 5.18633 18.8137ZM6.60054 17.3995C9.33422 20.1332 13.7664 20.1332 16.5 17.3995C19.2337 14.6659 19.2337 10.2337 16.5 7.50004C13.7664 4.76637 9.33422 4.76637 6.60054 7.50004C3.86688 10.2337 3.86688 14.6659 6.60054 17.3995Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <h2 className='text-gray-900 text-lg font-medium ml-2'>Web Developer</h2>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dolorum ut magni iste ducimus rerum laudantium minus quidem hic eligendi!
+                  </p>
+                  <a href='#' className='flex mt-3 text-pink-300 items-center'>
+                    もっと見る
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14.8543 11.9741L16.2686 10.5599L12.0259 6.31724L7.78327 10.5599L9.19749 11.9741L11.0259 10.1457V17.6828H13.0259V10.1457L14.8543 11.9741Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1 19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5C2.79086 1 1 2.79086 1 5V19ZM5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className='text-gray-700 border-t border-gray-200'>
+        <div className='text-center'>
+          <p className='text-sm font-medium'>©️ 2023 YuBlog.</p>
         </div>
       </section>
     </>
