@@ -209,6 +209,25 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section id="skill" className="text-gray-700 border-t border-gray-200">
+        <div className="flex container px-5 py-24 mx-auto flex-wrap">
+          <div className="md:w-1/2">
+            <img
+              src="./images/pc.jpg"
+              alt=""
+              className="rounded "
+            />
+          </div>
+          <div>
+            <h1>My Skills</h1>
+            <div>
+              <h2>HTML</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className='text-gray-700 border-t border-gray-200'>
         <div className='text-center'>
           <p className='text-sm font-medium'>©️ 2023 YuBlog.</p>
