@@ -212,17 +212,44 @@ function App() {
 
       <section id="skill" className="text-gray-700 border-t border-gray-200">
         <div className="flex container px-5 py-24 mx-auto flex-wrap">
-          <div className="md:w-1/2">
+          <div className="rounded w-full mb-10 lg:w-1/2 lg:mb-0">
             <img
               src="./images/pc.jpg"
               alt=""
-              className="rounded "
+              className="rounded w-full h-full object-cover"
             />
           </div>
-          <div>
-            <h1>My Skills</h1>
-            <div>
+          <div className='lg:pl-12 lg:py-6 w-full lg:w-1/2'>
+            <h1 className='text-2xl text-pink-500 sm:text-3xl font-medium mb-10 text-center lg:text-left'>My Skills</h1>
+            <div className='w-full'>
               <h2>HTML</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{ width: "85%" }}>85%</div>
+              </div>
+            </div>
+            <div className='w-full'>
+              <h2>CSSL</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{ width: "55%" }}>55%</div>
+              </div>
+            </div>
+            <div className='w-full'>
+              <h2>PHP</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{ width: "75%" }}>75%</div>
+              </div>
+            </div>
+            <div className='w-full'>
+              <h2>Python</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{ width: "65%" }}>65%</div>
+              </div>
+            </div>
+            <div className='w-full'>
+              <h2>Laravel</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{ width: "95%" }}>95%</div>
+              </div>
             </div>
           </div>
         </div>

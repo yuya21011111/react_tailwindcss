@@ -1,4 +1,14 @@
 body {
   background-image: url(./images/Hakui-Koyori_pr-img_02.png);
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 150em;
+}
+
+@media (min-width: 640px) {
+  body {
+    background-image: url(./images/Hakui-Koyori_pr-img_02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 }
